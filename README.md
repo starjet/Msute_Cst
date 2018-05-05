@@ -11,3 +11,5 @@ How to:
 [baseurl]/asset_bundles/android/Resources.cst  
 [baseurl]/asset_bundles/android/Unit.cst  
 3. Improvise.
+
+Update: Compiled release added. Place baseurl in baseurl.txt and run.
