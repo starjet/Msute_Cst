@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\temp\com.bandainamcoent.imas_SideM_LIVEONSTAGE.32\assets\bin\Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,6 +45,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\temp\com.bandainamcoent.imas_SideM_LIVEONSTAGE.32\assets\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
@@ -50,11 +56,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MsuteClasses\HpClientAssetInfo.cs" />
-    <Compile Include="MsuteClasses\HpCrypt.cs" />
-    <Compile Include="MsuteClasses\HpMasterBin.cs" />
-    <Compile Include="MsuteClasses\HpMasterCluster.cs" />
-    <Compile Include="MsuteClasses\HpMasterData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
